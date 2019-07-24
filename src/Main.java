@@ -1,6 +1,14 @@
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
 public class Main {
-    public static void main(String[] args) {
-        Class reflection = Reflection.class;
+    public static void main(String[] args)
+            throws NoSuchMethodException,
+            IllegalAccessException,
+            InvocationTargetException,
+            InstantiationException {
+
+        Class<Reflection> reflection = Reflection.class;
 
         System.out.println(reflection);
 
@@ -14,5 +22,7 @@ public class Main {
             System.out.println(anInterface);
         }
 
+        Reflection oReflection = reflection.getConstructor().newInstance();
+        System.out.println(oReflection);
     }
 }
