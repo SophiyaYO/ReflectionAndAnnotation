@@ -27,7 +27,7 @@ public class Main {
         Arrays.stream(setters)
                 .sorted(Comparator.comparing(Method::getName))
                 .forEach(m-> System.out.println(
-                        String.format("%s will set field of class %s",
+                        String.format("%s and will set field of class %s",
                                 m.getName(),
                                 m.getParameterTypes() [0].getSimpleName())
                         )
