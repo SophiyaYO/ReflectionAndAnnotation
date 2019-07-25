@@ -53,6 +53,7 @@ public class Main {
 
 <details>
 <summary>2. Getters and Setters</summary>
+/play dangerzone
 Using reflection to get all Reflection methods. Then prepare an algorithm that will recognize, which methods are getters and setters. Sort each collection alphabetically by methods names. Print to console each getter on new line in format:
 -	**"{name} will return class {Return Type}"**
 Then print all setters in format:
