@@ -1,6 +1,7 @@
 # **REFLECTION AND ANNOTATION**
 ----------
 ----------
+
 Lab exercises and some notes for
 --------------
 
@@ -91,4 +92,33 @@ You are already expert of **High Quality Code**, so you know what kind of **acce
 -----
 
 **_Same shit as pr 02_**
+</details>
+
+
+## Part II: Annotations
+-----------
+
+<details>
+<summary>:package: 4. Create Annotation</summary>
+
+**Create annotation Subject with a String\[]** element called categories, that: 
+
+-	Should be available at runtime
+-	Can be placed only on types
+
+</details>
+
+<details>
+<summary>:package: 5. Coding Tracker</summary>
+
+**Create annotation Subject with a String\[]** element called categories, that: 
+
+Create annotation Author with a String element called name, that:
+-	Should be available at runtime
+-	Can be placed only on methods
+
+Create a class Tracker with a method:
+-	public static void printMethodsByAuthor\()
+
+ 
 </details>
