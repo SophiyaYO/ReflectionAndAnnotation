@@ -1,5 +1,6 @@
 package gettersAndSetters;
 
+
 import reflection.Reflection;
 
 import java.lang.reflect.Method;
@@ -29,9 +30,9 @@ public class Main {
                 System.out.printf("%s and will set field of class %s%n",
                         m.getName(), m.getParameterTypes()[0].getSimpleName()));
 
-//        Reflection reflection = new Reflection();
+//        reflection.Reflection reflection = new reflection.Reflection();
 //
-//        Class<Reflection> reflectionClass = (Class<Reflection>) reflection.getClass();
+//        Class<reflection.Reflection> reflectionClass = (Class<reflection.Reflection>) reflection.getClass();
 //        Method[] allDeclaredMethods = reflectionClass.getDeclaredMethods();
 //        Method[] getters = getMethodsStartsWith("get", allDeclaredMethods);
 //        Method[] setters = getMethodsStartsWith("set", allDeclaredMethods);

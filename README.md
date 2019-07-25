@@ -5,19 +5,19 @@ Lab exercises and some notes for
 --------------
 
 
-## Part I: Reflection
+## Part I: reflection.Reflection
 -----------
 
 <details>
-<summary>1. Reflection</summary>
+<summary>1. reflection.Reflection</summary>
 
-Import "**Reflection.java"** to your **"src"** folder in your project. Try to use reflection and print some information about this class. Print everything on new line:
+Import "**reflection.Reflection.java"** to your **"src"** folder in your project. Try to use reflection and print some information about this class. Print everything on new line:
 -	This class type
 -	Super class type 
 -	All interfaces that are implemented by this class
 -	Instantiate object using reflection and print it too
 
-**Don’t change anything in "Reflection class"!** 
+**Don’t change anything in "reflection.Reflection class"!** 
 
 #### Solution
 
@@ -54,12 +54,12 @@ public class Main {
 <details>
 <summary>2. Getters and Setters</summary>
 
-Using reflection to get all Reflection methods. Then prepare an algorithm that will recognize, which methods are getters and setters. Sort each collection alphabetically by methods names. Print to console each getter on new line in format:
+Using reflection to get all reflection.Reflection methods. Then prepare an algorithm that will recognize, which methods are getters and setters. Sort each collection alphabetically by methods names. Print to console each getter on new line in format:
 -	**"{name} will return class {Return Type}"**
 Then print all setters in format:
 -	**"{name} and will set field of class {Parameter Type}"**
 
-**Do this without changing anything in "Reflection.java"**
+**Do this without changing anything in "reflection.Reflection.java"**
 
 #### **:exclamation:NOTES:exclamation:**
 -----
