@@ -82,8 +82,8 @@ You are already expert of **High Quality Code**, so you know what kind of **acce
 **{methodName} have to be private!**
 
 
-#### **:exclamation: NOTES <sup>:exclamation:<\sup>**
+#### **:exclamation: NOTES <sup>:exclamation:**
 -----
 
-Same shit as pr 02
+**_Same shit as pr 02_**
 </details>
