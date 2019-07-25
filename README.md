@@ -52,14 +52,15 @@ public class Main {
 </details>
 
 <details>
-<summary>2. Getters and Setters</summary>
+<summary>**2. Getters and Setters**</summary>
 Using reflection to get all Reflection methods. Then prepare an algorithm that will recognize, which methods are getters and setters. Sort each collection alphabetically by methods names. Print to console each getter on new line in format:
--	"{name} will return class {Return Type}"
+-	**"{name} will return class {Return Type}"**
 Then print all setters in format:
--	"{name} and will set field of class {Parameter Type}"
-Do this without changing anything in "Reflection.java"
+-	**"{name} and will set field of class {Parameter Type}"**
 
-#### **NOTES**
+**Do this without changing anything in "Reflection.java"**
+
+#### **:exclamation:NOTES:exclamation:**
 -----
 In class Main you will find 2 implementations of a code. The first \(That one that is active)
 is copied from the presentation. The 2 have identical Output. At the moment there is a problem with the judge system
