@@ -75,10 +75,15 @@ so it is getting 0/100. No mistakes are found. Will try later to see if there is
 
 You are already expert of **High Quality Code**, so you know what kind of **access modifiers** must be set to members of class. Time for revenge has come. Now you have to check code produced by your "Beautiful and Smart" trainers in class Reflection. **Check all fields and methods access modifiers**. **Sort each category of members alphabetically**. Print on console all mistakes in format:
 -	Fields
+
 **{fieldName} must be private!**
+
 -	Getters
+
 **{methodName} have to be public!**
+
 -	Setters
+
 **{methodName} have to be private!**
 
 
