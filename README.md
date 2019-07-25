@@ -9,7 +9,7 @@ Lab exercises and some notes for
 -----------
 
 <details>
-<summary>1. reflection.Reflection</summary>
+<summary>:package: 1. reflection.Reflection</summary>
 
 Import "**reflection.Reflection.java"** to your **"src"** folder in your project. Try to use reflection and print some information about this class. Print everything on new line:
 -	This class type
@@ -52,7 +52,7 @@ public class Main {
 </details>
 
 <details>
-<summary>2. Getters and Setters</summary>
+<summary>:package: 2. Getters and Setters</summary>
 
 Using reflection to get all reflection.Reflection methods. Then prepare an algorithm that will recognize, which methods are getters and setters. Sort each collection alphabetically by methods names. Print to console each getter on new line in format:
 -	**"{name} will return class {Return Type}"**
@@ -67,4 +67,23 @@ In class Main you will find 2 implementations of a code. The first \(That one th
 is copied from the presentation. The 2 have identical Output. At the moment there is a problem with the judge system
 so it is getting 0/100. No mistakes are found. Will try later to see if there is problem with the solution.
 
+</details>
+
+
+<details>
+<summary>:package: 3.	High Quality Mistakes</summary>
+
+You are already expert of **High Quality Code**, so you know what kind of **access modifiers** must be set to members of class. Time for revenge has come. Now you have to check code produced by your "Beautiful and Smart" trainers in class Reflection. **Check all fields and methods access modifiers**. **Sort each category of members alphabetically**. Print on console all mistakes in format:
+-	Fields
+**{fieldName} must be private!**
+-	Getters
+**{methodName} have to be public!**
+-	Setters
+**{methodName} have to be private!**
+
+
+#### **:exclamation: NOTES <sup>:exclamation:<\sup>**
+-----
+
+Same shit as pr 02
 </details>
